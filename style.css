@@ -22,6 +22,7 @@
     padding-left: 2em;
     padding-top: 2em;
     padding-right: 2em;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .sedans img {
@@ -45,6 +46,7 @@
     padding-left: 2em;
     padding-top: 2em;
     padding-right: 2em;
+    
 }
 
 .suvs img {
@@ -68,6 +70,7 @@
     padding-left: 2em;
     padding-right: 2em;
     padding-top: 2em;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .luxury img {
@@ -140,6 +143,12 @@ button {
         margin-top: 2em;
     }
 
+    .sedans{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .luxury{
+        border-radius: 0px 0px 10px 10px;
+    }
     .sedans,
     .luxury,
     .suvs {
