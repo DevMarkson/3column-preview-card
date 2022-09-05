@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-right: 2em;
+}
+
+.sedans img {
+    padding-bottom: 1.5em;
+}
+
+.sedans h2 {
+    padding-bottom: 0.5em;
+    color: hsl(0, 0%, 95%);
+}
+
+.sedans p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 3.5em;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-right: 2em;
+}
+
+.suvs img {
+    padding-bottom: 1.5em;
+}
+
+.suvs h2 {
+    padding-bottom: 0.5em;
+    color: hsl(0, 0%, 95%);
+}
+
+.suvs p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 3.5em;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+}
+
+.luxury img {
+    padding-bottom: 1.5em;
+}
+
+.luxury h2 {
+    padding-bottom: 0.5em;
+    color: hsl(0, 0%, 95%);
+}
+
+.luxury p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 3.5em;
+}
+
+button {
+    padding-top: -2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    width: 10em;
+    border-radius: 25px;
+    cursor: pointer;
+    color: hsl(179, 100%, 13%);
+    border: solid 1px white;
+}
+
+.sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs button{
+    color: hsl(184, 100%, 22%);
+}
+
+.sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: solid 1px;
+}
+
+.suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: solid 1px;
+}
+
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: solid 1px;
+}
+
+.attribution {
+    font-size: 22px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 400px) {
+    .hero {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+
+    .sedans,
+    .luxury,
+    .suvs {
+        width: 20em;
+    }
+    .attribution {
+        width: 25em;
+        margin-top: 1em;
+        font-size: 16px;
+    }
+}
